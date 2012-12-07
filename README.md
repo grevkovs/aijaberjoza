@@ -6,5 +6,4 @@ aijaberjoza.lv
 ### Как начать?
 
     bundle install
-
     shotgun app.rb
