@@ -1,4 +1,5 @@
 source "http://rubygems.org"
 
+gem 'sinatra'
 gem "sass"
-gem "bourbon"
+gem "shotgun"

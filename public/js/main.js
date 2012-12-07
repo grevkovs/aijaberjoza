@@ -4,8 +4,8 @@ function exp_padding(){
   $(".expr .expr-text").css("padding", "0 "+pd+"px");
 }
 
-exp_padding()
+exp_padding();
 
 $(window).resize(function() {
-  exp_padding()  
+  exp_padding();  
 })
