@@ -44,7 +44,6 @@ h2 {
   font-size: 20px;
   letter-spacing: 5px;
   color: #bbb;
-  text-align: center;
 }
 
 a {
@@ -143,14 +142,30 @@ a:hover {
 /*Мероприятия*/
 
 .events {
-  width: 400px;
+  width: 45%;
+  margin-right: 30px;
   float: left;
-  margin-right: 40px;
+  box-shadow: 0px 1px 3px #888;
+  background: white;
+  border-radius: 3px;
+  padding: 5px 20px 20px 20px;
+  margin-top: 20px;
+
 }
 
 .quotes {
-  width: 400px;
+  margin-top: 25px;
+  width: 45%;
   float: left;
+}
+
+.signature {
+  font-style: italic;
+  text-align: right;
+}
+
+.dates {
+  font-size: 50px;
 }
 
 /*.events {
