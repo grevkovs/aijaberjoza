@@ -124,10 +124,6 @@ a:hover {
 
 /* Information */
 
-.information {
-
-}
-
 .events {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -164,8 +160,17 @@ a:hover {
 
 .dates {
   font-size: 50px;
+  margin-top: 20px;
 }
 
+.name {
+  margin-left: 75px;
+  vertical-align: baseline;
+}
+
+.date {
+  float: left;
+}
 
 
 /* Stuff */
