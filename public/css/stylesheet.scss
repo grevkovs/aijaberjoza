@@ -125,17 +125,16 @@ a:hover {
 /* Information */
 
 .information {
-  margin: 0 auto;
-  width: 904px;
+
 }
 
 .events {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  
+
   float: left;
-  width: 400px;
+  width: 49%;
   margin-top: 20px;
   padding: 5px 20px 20px 20px;
   border-radius: 3px;
@@ -144,9 +143,12 @@ a:hover {
 }
 
 .quotes {
-  width: 400px;
-  float: left;
-  margin-left: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  width: 49%;
+  float: right;
   margin-top: 20px;
   padding: 5px 20px 20px 20px;
   border-radius: 3px;
