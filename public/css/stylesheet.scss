@@ -1,4 +1,6 @@
-$helvetica_neue: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; 
+$helvetica_neue: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", 
+                 "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+$width: 1000px;
 
 body {
   margin: 0 30px;
@@ -7,14 +9,11 @@ body {
   font: normal 15px/150% Helvetica, sans-serif, Arial;
 }
 
-.clearfix:before, .clearfix:after {display: table; content: " "; }
+.clearfix:before, .clearfix:after { display: table; content: " "; }
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; }
 
-.wrapper {
-  margin: 0 auto;
-  max-width: 1000px;
-}
+.wrapper { margin: 0 auto; max-width: $width; }
 
 h1 {
   text-align: center;
@@ -61,7 +60,7 @@ a:hover {
   font-size: 25px;
   font-family: Georgia;
   line-height: 150%;
-  }
+}
 
 .line {
   margin-bottom: 30px;
