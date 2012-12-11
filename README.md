@@ -3,7 +3,11 @@ aijaberjoza.lv
 Сайт замечательного человека Аии Берёзы
 
 
-### Как начать?
+### Как начать
 
-    bundle install
-    shotgun app.rb
+  bundle install
+  shotgun app.rb
+
+### Deploy
+
+  git push heroku origin
