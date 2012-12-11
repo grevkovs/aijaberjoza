@@ -5,9 +5,9 @@ aijaberjoza.lv
 
 ### Как начать
 
-  bundle install
-  shotgun app.rb
+    bundle install
+    shotgun app.rb
 
 ### Deploy
 
-  git push heroku origin
+    git push heroku origin
