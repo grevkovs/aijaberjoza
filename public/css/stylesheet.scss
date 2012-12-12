@@ -78,6 +78,19 @@ a:hover {
   border-bottom: 1px dashed #bbb;
 }
 
+.twitter {
+  width: 16px;
+  height: 16px;
+  margin-bottom: -4px;
+  margin-right: 5px;
+}
+
+.facebook {
+  width: 16px;
+  height: 16px;
+  margin-bottom: -3px;
+  margin-right: 5px;
+}
 
 
 /* Menu */
@@ -124,12 +137,17 @@ a:hover {
   text-align: center;
 }
 
-.main p {
-  margin-bottom: 30px;
-}
 .contact {
   text-align: center;
-  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-first {
+  margin-right: 20px;
+}
+
+.contact-last {
+  
 }
 
 
