@@ -14,22 +14,6 @@ get '/' do
   erb :index
 end
 
-get '/about' do
-  erb :about
-end
-
-get '/calendar' do
-  erb :calendar
-end
-
-get '/game' do
-  erb :game
-end
-
-get '/practice' do
-  erb :practice
-end
-
-get '/yoga' do
-  erb :yoga
+get '/:name' do
+  erb params[:name].to_sym
 end
