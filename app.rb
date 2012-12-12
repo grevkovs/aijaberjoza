@@ -6,6 +6,10 @@ get '/css/:name.css' do |name|
   scss name.to_sym, layout: false, views: "#{settings.root}/public/css"
 end
 
+before do
+  response.headers['X-UA-Compatible'] = 'IE=edge,chrome=1'
+end
+
 get '/' do
   erb :index
 end
