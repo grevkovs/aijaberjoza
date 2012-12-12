@@ -13,3 +13,19 @@ end
 get '/about' do
   erb :about
 end
+
+get '/calendar' do
+  erb :calendar
+end
+
+get '/game' do
+  erb :game
+end
+
+get '/practice' do
+  erb :practice
+end
+
+get '/yoga' do
+  erb :yoga
+end
