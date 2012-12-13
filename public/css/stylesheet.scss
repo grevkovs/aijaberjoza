@@ -5,6 +5,7 @@ body {
   min-width: 960px;
   background: #FBF9F5;
   font: normal 15px/150% Helvetica, sans-serif, Arial;
+  text-shadow: 0 1px white
 }
 
 .clearfix:before, .clearfix:after {display: table; content: " "; }
@@ -23,6 +24,7 @@ h1 {
   line-height: 100%;
   margin-top: 20px;
   margin-bottom: 30px;
+  text-shadow: 0 3px white
 }
 
 h2 {
@@ -44,6 +46,19 @@ h3 {
   font-size: 40px;
   text-align: center;
   font-family: 'Lobster', cursive;
+  text-shadow: 0 2px #35944a
+}
+
+.quotes-inner-red h3 {
+  color: white;
+  letter-spacing: 5px;
+  font-weight: 300; 
+  font-stretch: normal;
+  padding-top: 40px;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  text-shadow: 0 2px #f1240e
 }
 
 a {
@@ -79,6 +94,7 @@ a:hover {
 .small-text {
   font-size: 13px;
   color: #bbb;
+  text-shadow: 0 1px white
 }
 
 .special-text {
@@ -151,8 +167,13 @@ a:hover {
 
 /* Calendar */
 
+.calendar-container {
+  margin-top: 30px;
+}
+
 .calendar {
   width: 180px;
+  margin-top: 30px;
   margin: 0 auto;
   background-color: #42BA5D;
   border-radius: 3px;
@@ -165,12 +186,26 @@ a:hover {
   font-size: 15px;
   font-family: $helvetica_neue;
   padding: 5px 5px 5px 10px;
+  text-shadow: 0 1px #35944a
 }
 
 .vertical-line {
-  border-left:thick solid #bbb;;
-  border-left-style: dotted;
-  height: 60px;
+  border-right: solid #bbb;
+  width: 500px;
+  border-width: 1px;
+  border-right-style: dashed;
+  height: 30px;
+}
+
+.calendar-text {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.line-calendar {
+  margin-bottom: 20px;
+  border-bottom: 1px dashed #bbb;
 }
 
 
@@ -187,10 +222,8 @@ a:hover {
   padding: 5px 20px 20px 20px;
   border-radius: 3px;
   background: white;
-  border-color: white;
-  border-style: solid;
   box-shadow: 0px 1px 3px #888;
-  border-width: 5px;
+
 }
 
 .event-line {
@@ -211,6 +244,10 @@ a:hover {
   font-stretch: normal;
   font-size: 11px;
   font-family: $helvetica_neue;
+}
+
+a:hover .date {
+  text-decoration: none;
 }
 
 .name {
@@ -277,7 +314,7 @@ a:hover {
   color: #bbb;
 }
 
-.quotes-inner {
+.quotes-inner-green {
   width: 700px;
   margin: 0 auto;
   background-color: #42BA5D;
@@ -286,6 +323,19 @@ a:hover {
   margin-bottom: 45px;
   padding-bottom: 30px;
   box-shadow: 0px 1px 3px #888;
+  text-shadow: 0 1px #35944a
+}
+
+.quotes-inner-red {
+  width: 700px;
+  margin: 0 auto;
+  background-color: #F4503E;
+  border-radius: 3px;
+  margin-top: -10px;
+  margin-bottom: 45px;
+  padding-bottom: 30px;
+  box-shadow: 0px 1px 3px #888;
+  text-shadow: 0 1px #f1240e
 }
 
 .quote-inner {
