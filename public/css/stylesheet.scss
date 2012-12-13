@@ -42,7 +42,6 @@ h3 {
   letter-spacing: 5px;
   font-weight: 300; 
   font-stretch: normal;
-  padding-top: 40px;
   font-size: 40px;
   text-align: center;
   font-family: 'Lobster', cursive;
@@ -108,6 +107,14 @@ a:hover {
   margin-bottom: 20px;
   margin-top: 30px;
   border-bottom: 1px dashed #bbb;
+}
+
+.photos {
+  width: 700px;
+  padding: 1px;
+  border: 5px solid white;
+  box-shadow: 0px 1px 3px #888;
+  border-radius: 3px;
 }
 
 
@@ -186,7 +193,8 @@ a:hover {
   font-size: 15px;
   font-family: $helvetica_neue;
   padding: 5px 5px 5px 10px;
-  text-shadow: 0 1px #35944a
+  text-shadow: 0 1px #35944a;
+  box-shadow: 0px 1px 3px #888
 }
 
 .vertical-line {
@@ -319,11 +327,13 @@ a:hover .date {
   margin: 0 auto;
   background-color: #42BA5D;
   border-radius: 3px;
-  margin-top: -10px;
+  margin-top: 30px;
   margin-bottom: 45px;
   padding-bottom: 30px;
   box-shadow: 0px 1px 3px #888;
-  text-shadow: 0 1px #35944a
+  text-shadow: 0 1px #35944a;
+  border: 7px;
+  border-style: inset;
 }
 
 .quotes-inner-red {
