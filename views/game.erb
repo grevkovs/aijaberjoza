@@ -13,27 +13,15 @@
     </div>
 
     <div class="quotes-inner-green">
-      
       <h3>Рекомендации</h3>
 
-        <div class="hooks-inner">“</div>
-        <div class="quote-inner"><p>Man vajadzēja tikai pāris spēles minūtes, lai saprastu, ka tā ir PAR MANU DZĪVI. Ļoti skaisti izgaismojās atslēgas vārdi. Ļoti dziļi nācās ielūkoties sevī, meklējot  to, kur manī rezonē izvilktās šķēršļu kārtis. Patīkami bija apzināties eņģeļu klātesamību...</p>
-        <p>Un šķiet, šī bija vienīgā galda spēle, kuru esmu spēlējusi, necenšoties kādu sakaut vai uzvarēt. Drīzāk otrādi — es laiku pa laikam saņēmu dāvanas un svētību no pārējiem šīs spēles spēlētājiem! Vienīgais, ar ko es tiešām sacentos- biju es pati. Es sacentos ar to savu veco „ES”, kurš soli pa soli meklēja ceļu uz savu jauno „ES”. Tiešām transformējoša spēle!</p>
-        <p>Noteikti iesaku to izmēģināt- tas ir saturīgi pavadīts laiks!</p></div>
-        <div class="signature-inner">Inta Santa</div>
+      <% @data['game_recommendations'].each do |recommendation| %>
+      <div class="hooks-inner">“</div>
+      <div class="quote-inner"><%= recommendation['text'] %></div>
+      <div class="signature-inner"><%= recommendation['name'] %></div>
 
-        <div class="line-inner-quotes"></div>
-
-        <div class="hooks-inner">“</div>
-        <div class="quote-inner">Теперь мне есть над чем работать, а&nbsp;главное&nbsp;&mdash; теперь есть возможность двигаться вперед! Очень необычная игра, ощущение супер! Показалось, что трансформационная игра — одновременно настольная игра, общение и&nbsp;психологический тренинг, который открывает возможность по- новому посмотреть на&nbsp;достижение своей цели. Играть в&nbsp;трансформационную игру можно каждый раз, когда чувствуешь, что есть желание <nobr>что-то</nobr> поменять или найти решение того, что тебя волнует. И&nbsp;помочь в&nbsp;этом может именно групповая игра и&nbsp;хороший ведущий&#9786; Играя, ты&nbsp;как&nbsp;бы сталкиваешься с&nbsp;разными ответами, открываешь для себя возможности, о&nbsp;которых может быть до&nbsp;этого и&nbsp;не&nbsp;задумывался, а&nbsp;дальше все за&nbsp;нами!</div>
-        <div class="signature-inner">Елена</div>
-
-        <div class="line-inner-quotes"></div>
-
-        <div class="hooks-inner">“</div>
-        <div class="quote-inner">Šī neparastā spēle parāda lietu un situāciju patieso būtību, svarīgi ir to ieraudzīt un saprast. Un tad tev tiek iedota situāciju - tu stāvi uz vietas un nevari virzīties tālāk spēlē, jo noteikumi to neļauj. Un tad ir jāaizdomājas- kāpēc tu esi iestrēdzis šajā vietā, kas ir tas, kas tev neļauj virzīties tālāk? Gan spēlē, gan dzīvē... Un ja mēs uztveram savu dzīvi tikpat viegli kā spēli un ja mēs dzīvojam šo dzīvi kā spēlējoties, tad Transformācijas spēle – tā ir kā dzīve – gan vienkārša, gan aizraujoša, gan nopietna! Tāda kāda ir tava dzīve. Jo mana spēle bija kā mana, tev viss būs savādāk! Bet tas ir tā vērts!!! Paldies!!!</div>
-        <div class="signature-inner">Gunta</div>
-
+      <div class="line-inner-quotes"></div>
+      <% end %>
     </div>
 
   <div class="line"></div>
