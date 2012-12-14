@@ -1,0 +1,8 @@
+<div class="line"></div>
+
+<% @data['events'].each_with_index do |value, index| %>
+  <div class="event-inner">
+    <div class="date-inner"><%= value['date'] %> <%= value['month'] %> / <%= value['time'] %></div>
+    <div><a href="/event/<%= index %>" class="gmodal"><%= value['title'] %></a></div>
+  </div>
+<% end %>

@@ -1,5 +1,5 @@
 <div class="wrapper">
-  <%= erb :menu %>
+  <%= erb :"shared/menu" %>
 
   <h1>Календарь</h1>
 
@@ -51,18 +51,7 @@
 
   </div>
 
-  <div class="line-calendar"></div>
+  <%= erb :"shared/footer_events" %>
 
-  <div class="event-inner">
-    <div class="date-inner">31 НОЯ—2 ФЕВ</div>
-    <div><a href="">«Šabads Sievietei» viesu namā «Gungas»</a></div>
-  </div>
-
-  <div class="event-inner">
-    <div class="date-inner">17 и 24 ДЕК / 14:00–17:30</div>
-    <div><a href="">Трансформационная игра: Mana laimīgā un apzinātā dzīve» в центре «Miervidi»</a></div>
-  </div>
-
-  <%= erb :footer %>
-
+  <%= erb :"shared/footer" %>
 </div>

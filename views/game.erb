@@ -1,40 +1,29 @@
 <div class="wrapper">
-  <%= erb :menu %>
+  <%= erb :"shared/menu" %>
 
   <h1>Трансформационная<br>игра</h1>
 
-    <div class="text">
-      <p>Трансформационная игра&nbsp;&mdash; это чудесный способ, как проиграть то, что ты&nbsp;хочешь получить в&nbsp;жизни. Игра четко показывает, что происходит, где ты&nbsp;застреваешь и&nbsp;на&nbsp;что стоит обратить внимание, какие шаги предпринять, чтобы жизнь превратилась в&nbsp;поток.</p>
+  <div class="text">
+    <p>Трансформационная игра&nbsp;&mdash; это чудесный способ, как проиграть то, что ты&nbsp;хочешь получить в&nbsp;жизни. Игра четко показывает, что происходит, где ты&nbsp;застреваешь и&nbsp;на&nbsp;что стоит обратить внимание, какие шаги предпринять, чтобы жизнь превратилась в&nbsp;поток.</p>
 
-      <p>На&nbsp;игру необходимо явиться с&nbsp;целью (что ты&nbsp;хочешь прояснить в&nbsp;своей жизни; чего достичь, но&nbsp;не&nbsp;знаешь как или прежним способом не&nbsp;получается; начать отношения или исцелить их; найти свое призвание, увеличить доход <nobr>и т. д.</nobr>).</p>
+    <p>На&nbsp;игру необходимо явиться с&nbsp;целью (что ты&nbsp;хочешь прояснить в&nbsp;своей жизни; чего достичь, но&nbsp;не&nbsp;знаешь как или прежним способом не&nbsp;получается; начать отношения или исцелить их; найти свое призвание, увеличить доход <nobr>и т. д.</nobr>).</p>
 
-      <p>В&nbsp;ТИ&nbsp;играют максимум 4 человека и&nbsp;на&nbsp;это необходимо выделить 4 часа.</p>
-    </div>
-
-    <div class="quotes-inner-green">
-      <h3>Рекомендации</h3>
-
-      <% @data['game_recommendations'].each do |recommendation| %>
-      <div class="recommendation">
-        <div class="hooks-inner">“</div>
-        <div class="quote-inner"><%= recommendation['text'] %></div>
-        <div class="signature-inner"><%= recommendation['name'] %></div>
-      </div>
-      <% end %>
-    </div>
-
-  <div class="line"></div>
-
-  <div class="event-inner">
-    <div class="date-inner">31 НОЯ—2 ФЕВ</div>
-    <div><a href="">«Šabads Sievietei» viesu namā «Gungas»</a></div>
+    <p>В&nbsp;ТИ&nbsp;играют максимум 4 человека и&nbsp;на&nbsp;это необходимо выделить 4 часа.</p>
   </div>
 
-  <div class="event-inner">
-    <div class="date-inner">17 и 24 ДЕК / 14:00–17:30</div>
-    <div><a href="">Трансформационная игра: Mana laimīgā un apzinātā dzīve» в центре «Miervidi»</a></div>
+  <div class="quotes-inner-green">
+    <h3>Рекомендации</h3>
+
+    <% @data['game_recommendations'].each do |recommendation| %>
+    <div class="recommendation">
+      <div class="hooks-inner">“</div>
+      <div class="quote-inner"><%= recommendation['text'] %></div>
+      <div class="signature-inner"><%= recommendation['name'] %></div>
+    </div>
+    <% end %>
   </div>
 
-  <%= erb :footer %>
+  <%= erb :"shared/footer_events" %>
 
+  <%= erb :"shared/footer" %>
 </div>
