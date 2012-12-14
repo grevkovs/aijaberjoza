@@ -142,6 +142,11 @@ a:hover {
 }
 
 .menu a { 
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
   color: #888;
   text-decoration: none;
 }
