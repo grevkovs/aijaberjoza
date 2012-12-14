@@ -17,14 +17,10 @@
 
   <div class="content">
     <h4>Название</h4>
-    <div class="event_text">
-      <%= @event['title'] %>
-    </div>
+    <div class="event_text"><%= @event['title'] %></div>
 
     <h4>Описание</h4>
-    <div class="event_text">
-      <%= @event['text'] %>
-    </div>
+    <div class="event_text"><%= @event['text'] %></div>
 
     <% if @event['place'] %>
     <h4>Место</h4>
@@ -38,4 +34,10 @@
     <% end %>
   </div>
 
+  <div class="event_contact">
+    Чтобы записаться на мероприятие, свяжитесь со мной: <br> 
+    по номеру <strong>+371 26 364 854</strong> 
+    или эл. почте <a href="mailto:aija.berjoza@gmail.com">aija.berjoza@gmail.com</a>
+  </div>
+  
 </div>

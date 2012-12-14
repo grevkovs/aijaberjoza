@@ -8,7 +8,12 @@ body {
   min-width: 960px;
   background: #FBF9F5;
   font: normal 15px/150% Helvetica, sans-serif, Arial;
-  text-shadow: 0 1px white
+  text-shadow: 0 1px white;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
 }
 
 .clearfix:before, .clearfix:after {display: table; content: " "; }
@@ -28,7 +33,7 @@ h1 {
 }
 
 h2 {
-  color: #bbb;
+  color: #888;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 300; 
@@ -69,7 +74,7 @@ a:hover {
 
 .footer {
   margin: 60px 0 30px;
-  color: #bbb;
+  color: #888;
   text-align: center;
   font-size: 13px;
 }
@@ -88,7 +93,7 @@ a:hover {
 
 .small-text {
   font-size: 13px;
-  color: #bbb;
+  color: #888;
   text-shadow: 0 1px white
 }
 
@@ -100,7 +105,7 @@ a:hover {
 
 .line {
   margin: 20px 0 30px;
-  border-bottom: 1px dashed #bbb;
+  border-bottom: 1px dashed #888;
 }
 
 .photos {
@@ -123,7 +128,7 @@ a:hover {
 .menu li {
   display: inline;
   margin-right: 15px;
-  color: #bbb;
+  color: #888;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 300;
@@ -137,7 +142,7 @@ a:hover {
 }
 
 .menu a { 
-  color: #bbb;
+  color: #888;
   text-decoration: none;
 }
 
@@ -151,7 +156,7 @@ a:hover {
 /* Main page*/
 .main {
   margin-bottom: 10px;
-  border-bottom: 1px dashed #bbb;
+  border-bottom: 1px dashed #888;
   text-align: center;
 }
 
@@ -187,7 +192,7 @@ a:hover {
 }
 
 .vertical-line {
-  border-right: 1px dashed #bbb;
+  border-right: 1px dashed #888;
   width: 500px;
   height: 30px;
 }
@@ -200,7 +205,7 @@ a:hover {
 
 .line-calendar {
   margin-bottom: 20px;
-  border-bottom: 1px dashed #bbb;
+  border-bottom: 1px dashed #888;
 }
 
 
@@ -224,11 +229,11 @@ a:hover {
   line-height: 150%;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px dashed #BBB;
+  border-bottom: 1px dashed #888;
 }
 
 .date {
-  color: #bbb;
+  color: #888;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-stretch: normal;
@@ -251,7 +256,7 @@ a:hover .date {
 
 .date-inner {
   margin-top: 30px;
-  color: #bbb;
+  color: #888;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-stretch: normal;
@@ -273,7 +278,7 @@ a:hover .date {
   border-style: solid;
 
   a {
-    color: #bbb;
+    color: #888;
   }
 }
 
@@ -286,7 +291,7 @@ a:hover .date {
   text-align: right;
   font-size: 13px;
   padding: 0 30px 0px 50px;
-  color: #bbb;
+  color: #888;
 }
 
 .hooks {
@@ -294,7 +299,7 @@ a:hover .date {
   position: absolute;
   padding: 36px 0 0 0;
   font-family: georgia;
-  color: #bbb;
+  color: #888;
 }
 
 .quotes-inner-green {
@@ -386,10 +391,13 @@ a:hover .date {
   
   .content {
     padding: 20px 40px;
+    border-bottom: 1px dashed #888;
+    margin-bottom: 20px;
+    padding-bottom: 20px;  
 
     h4 {
       margin-bottom: 0;
-      color: #bbb;
+      color: #888;
       text-transform: uppercase;
       letter-spacing: 3px;
       font-stretch: normal;
@@ -397,6 +405,9 @@ a:hover .date {
     }
     .event_text { line-height: 200%; }
     .event_place { line-height: 200%; }
+  }
+  .event_contact {
+    padding: 0 40px 30px;
   }
 }
 
