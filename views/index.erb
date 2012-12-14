@@ -18,7 +18,7 @@
     <div class="events">
       <h2>БЛИЖАЙШИЕ МЕРОПРИЯТИЯ</h2>
 
-      <% @data['news'].each_pair do |key, value| %>
+      <% @data['news'].each do |value| %>
         <div class="event">
           <div class="date"><%= value['date'] %></div>
           <a href=""><%= value['title'] %></a>
@@ -36,10 +36,9 @@
       <h2><a href="" class="quites">Одна из рекомендаций</a></h2>
       <div class="hooks">“</div>
       <div class="quote">
-        <% recomendation = @data['recommendations'].to_a.sample[1] %>
-        <%= recomendation['text'] %>
+        <%= @recommendation['text'] %>
       </div>
-      <div class="signature"><%= recomendation['name'] %>,<br><%= recomendation['title'] %></div>
+      <div class="signature"><%= @recommendation['name'] %>,<br><%= @recommendation['title'] %></div>
     </div>
   </div>
 

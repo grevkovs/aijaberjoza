@@ -13,6 +13,8 @@ get '/css/:name.css' do |name|
 end
 
 get '/' do
+  @recommendations = @data['recommendations'].to_a.shuffle
+  @recommendation  = @recommendations[0]
   erb :index
 end
 
