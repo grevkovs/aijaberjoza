@@ -19,7 +19,7 @@ body {
 
 h1 {
   text-align: center;
-  font-family: 70px/100% 'Lobster', cursive;
+  font: 70px/100% 'Lobster', cursive;
   margin-top: 20px;
   margin-bottom: 30px;
   text-shadow: 0 3px white
@@ -316,16 +316,21 @@ a:hover .date {
 
 .quotes-inner-green {
   width: 700px;
-  margin: 0 auto;
+  margin: 30px auto 45px;
   background-color: #42BA5D;
   border-radius: 3px;
-  margin-top: 30px;
-  margin-bottom: 45px;
   padding-bottom: 30px;
   box-shadow: 0px 1px 3px #888;
   text-shadow: 0 1px #35944a;
-  border: 7px;
-  border-style: inset;
+  border: 7px inset;
+  .recommendation {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed #ffffff;
+  }
+  .recommendation:last-child {
+    border-bottom: none;
+  }
 }
 
 .quotes-inner-red {

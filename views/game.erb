@@ -1,5 +1,4 @@
 <div class="wrapper">
-
   <%= erb :menu %>
 
   <h1>Трансформационная<br>игра</h1>
@@ -16,11 +15,11 @@
       <h3>Рекомендации</h3>
 
       <% @data['game_recommendations'].each do |recommendation| %>
-      <div class="hooks-inner">“</div>
-      <div class="quote-inner"><%= recommendation['text'] %></div>
-      <div class="signature-inner"><%= recommendation['name'] %></div>
-
-      <div class="line-inner-quotes"></div>
+      <div class="recommendation">
+        <div class="hooks-inner">“</div>
+        <div class="quote-inner"><%= recommendation['text'] %></div>
+        <div class="signature-inner"><%= recommendation['name'] %></div>
+      </div>
       <% end %>
     </div>
 
