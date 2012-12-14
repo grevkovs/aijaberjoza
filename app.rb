@@ -1,6 +1,8 @@
 require 'sinatra'
+require 'active_support/core_ext/object'
 require 'sass'
 require 'yaml'
+
 
 before do
   response.headers['X-UA-Compatible'] = 'IE=edge,chrome=1'

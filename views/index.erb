@@ -7,11 +7,11 @@
     <img src="img/aija.png" width="218px" height="218px" alt="Айя Берёза">
     <p>Сертифицированный коуч, тренер, мама и жена</p>
 
-    <p class="contact">
-      <span class="contact-first"><b>+371 26 364 854</b></span>
-      <span class="contact-first"><a href="mailto:aija.berjoza@gmail.com"><b>aija.berjoza@gmail.com</b></a></span>
-      <span class="contact-last"><a href="http://twitter.com/joxa" target="blank_"><b>@Joxa</b></a></span>
-    </p>
+    <ul class="contact">
+      <li>+371 26 364 854</li>
+      <li><a href="mailto:aija.berjoza@gmail.com">aija.berjoza@gmail.com</a></li>
+      <li><a href="http://twitter.com/joxa" target="blank_">@Joxa</a></li>
+    </ul>
   </div>
 
   <div class="information clearfix">
@@ -33,11 +33,15 @@
     </div>
 
     <div class="quotes">
-      <h2><a href="" class="quites">Одна из рекомендаций</a></h2>
+      <h2><a href="#" class="quites" id="refresh_recommendation">Одна из рекомендаций</a></h2>
       <div class="hooks">“</div>
       <div class="quote"><%= @recommendation['text'] %></div>
-      <div class="signature"><%= @recommendation['name'] %>,<br><%= @recommendation['title'] %></div>
+      <div class="signature"><%= @recommendation['name'] %></div>
     </div>
+
+    <script>
+      var recomendations = <%= @recommendations.to_json %>;
+    </script>
   </div>
 
   <%= erb :"shared/footer" %>
