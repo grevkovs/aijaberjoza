@@ -1,4 +1,4 @@
-require 'app'
+require './app'
 # require 'rack/rewrite'
 
 # use Rack::Rewrite do
