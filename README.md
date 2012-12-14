@@ -1,4 +1,4 @@
-aijaberjoza.lv
+[aijaberjoza.lv](http://www.aijaberjoza.lv)
 ===========
 Сайт замечательного человека Аии Берёзы
 
