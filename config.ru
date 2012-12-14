@@ -1,11 +1,9 @@
 require 'app'
-require 'rack-rewrite'
+require 'rack/rewrite'
 
-DOMAIN = 'www.aijaberjoza.lv'
-
-# Redirect to the www version of the domain in production
 use Rack::Rewrite do
-  r301 %r{.*}, "http://#{DOMAIN}$&", :if => Proc.new {|rack_env|
-    rack_env['SERVER_NAME'] != DOMAIN && ENV['RACK_ENV'] == "production"
-  }
+  r301 %r{.*}, 'http://www.aijaberjoza.lv$&', 
+    if: Proc.new { |rack_env| rack_env['SERVER_NAME'] != 'aijaberjoza.lv' }
 end
+
+run Sinatra::Application
