@@ -18,6 +18,11 @@ get '/' do
   erb :index
 end
 
+get '/event/:id' do
+  @event = @data['events'][params[:id].to_i]
+  erb :event, layout: false
+end
+
 get '/:name' do
   erb params[:name].to_sym
 end

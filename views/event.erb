@@ -1,0 +1,41 @@
+<div class="event_modal">
+
+  <div class="header clearfix">
+    <div class="event_date block">
+      <%= @event['date'] %>
+      <div class="small"><%= @event['month'] %></div>
+    </div>
+    <div class="event_time block">
+      <%= @event['time'] %>
+      <div class="small">Время</div>
+    </div>
+    <div class="event_price block">
+      <%= @event['price'] %>
+      <div class="small">Цена с человека</div>
+    </div>
+  </div>
+
+  <div class="content">
+    <h4>Название</h4>
+    <div class="event_text">
+      <%= @event['title'] %>
+    </div>
+
+    <h4>Описание</h4>
+    <div class="event_text">
+      <%= @event['text'] %>
+    </div>
+
+    <% if @event['place'] %>
+    <h4>Место</h4>
+    <div class="event_text">
+      <% if @event['place_url'] %>
+        <a href="<%= @event['place_url'] %>" target="_blank"><%= @event['place'] %></a>
+      <% else %>
+        <%= @event['place'] %>
+      <% end %>
+    </div>
+    <% end %>
+  </div>
+
+</div>

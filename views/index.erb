@@ -18,10 +18,10 @@
     <div class="events">
       <h2>БЛИЖАЙШИЕ МЕРОПРИЯТИЯ</h2>
 
-      <% @data['news'].each do |value| %>
+      <% @data['events'].each_with_index do |value, index| %>
         <div class="event">
-          <div class="date"><%= value['date'] %></div>
-          <a href=""><%= value['title'] %></a>
+          <div class="date"><%= value['date'] %> <%= value['month'] %> / <%= value['time'] %></div>
+          <a href="/event/<%= index %>" class="gmodal"><%= value['title'] %></a>
         </div>
       <% end %>
 

@@ -1,0 +1,119 @@
+div.modal-overlay { position: fixed; top: 0; left: 0; z-index: 100; width: 100%; height: 100%; background-color: #fff; }
+
+table.modal { position: absolute; top: 0; left: 0; z-index: 100; width: 100%; height: 100%; }
+table.modal-scrollable { position: fixed; }
+table.modal td.modal { vertical-align: middle; }
+table.modal table.modal-wrapper { margin: 0 auto; }
+
+div.modal { position: absolute; z-index: 100; }
+div.modal-window div.modal-tools { display: none; position: relative; z-index: 1; }
+div.modal-window div.modal-tools a.modal-close { position: absolute; top: 0; right: 0; z-index: 1; }
+
+/* default skin */
+.modal.default div.modal-window > div {
+  padding: 0px;
+  max-width: 600px;
+  background: #FFF;  
+  border-radius: 3px;
+  box-shadow: 0px 1px 3px #888;
+}
+.modal.default div.modal-tools a.modal-close {
+  display: block;
+  width: 16px; height: 16px;
+  background: url(/img/icons.png) no-repeat 0 0;
+  text-indent: -9999px;
+  font-size: 11px;
+  white-space: nowrap;
+}
+.modal.default div.modal-tools a.modal-close:hover { background-position: 0 -30px; }
+.modal.default h1 {
+  margin-bottom: 12px; padding-bottom: 5px;
+  border-bottom: 2px solid #333;
+  font-size: 18px; font-weight: bold;
+  
+  -webkit-box-shadow: 0 1px 0 #FFF, 0 2px 0 #333;
+  -moz-box-shadow: 0 1px 0 #FFF, 0 2px 0 #333;
+  box-shadow: 0 1px 0 #FFF, 0 2px 0 #333;
+}
+
+table.modal.default div.modal-tools a.modal-close { top: 0; right: -30px; }
+  
+div.modal.default a.modal-close { top: -10px; right: -10px; }  
+div.modal.default div.modal-window > div { padding: 12px; }
+div.modal.default div.modal-spacer { display: block; position: absolute; z-index: 1; background: url(triangle.png) no-repeat 9999px 9999px; }
+
+/* gravity */
+div.modal.default.modal-s div.modal-window,
+div.modal.default.modal-sw div.modal-window,
+div.modal.default.modal-se div.modal-window { padding-top: 14px; }
+div.modal.default.modal-s div.modal-spacer,
+div.modal.default.modal-sw div.modal-spacer,
+div.modal.default.modal-se div.modal-spacer { width: 23px; height: 16px; background-position: 50% 0; }
+div.modal.default.modal-se div.modal-spacer { margin-right: -11px; }
+div.modal.default.modal-sw div.modal-spacer { margin-left: -11px; }
+div.modal.default.modal-s div.modal-spacer { margin-left: -11px; left: 50%; }
+div.modal.default.modal-w div.modal-window { padding-right: 14px; }
+div.modal.default.modal-w div.modal-spacer,
+div.modal.default.modal-e div.modal-spacer { width: 16px; height: 23px; }
+div.modal.default.modal-w div.modal-spacer { right: 0; top: 50%; margin-top: -11px; background-position: 100% 50%; }
+div.modal.default.modal-e div.modal-window { padding-left: 14px; }
+div.modal.default.modal-e div.modal-spacer { top: 50%; margin-top: -11px; background-position: 0 50%; }
+
+div.modal.default.modal-n div.modal-window,
+div.modal.default.modal-nw div.modal-window,
+div.modal.default.modal-ne div.modal-window { padding-bottom: 14px; }
+div.modal.default.modal-n div.modal-spacer,
+div.modal.default.modal-nw div.modal-spacer,
+div.modal.default.modal-ne div.modal-spacer { bottom: 0; width: 23px; height: 16px; background-position: 50% 100%; }
+div.modal.default.modal-ne div.modal-spacer { margin-right: -11px; }
+div.modal.default.modal-nw div.modal-spacer { margin-left: -11px; }
+div.modal.default.modal-n div.modal-spacer { margin-left: -11px; left: 50%; }
+
+
+/* custom skin */
+.modal.custom div.modal-window {
+  padding: 7px;
+  max-width: 400px;
+  -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
+  background-color: rgba(0, 0, 0, .5);
+}
+.modal.custom div.modal-window > div {
+  padding: 10px;
+  border: 1px solid #333;
+  -webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px;
+  background: #FFF;
+}
+.modal.custom div.modal-tools a.modal-close {
+  display: block;
+  top: -23px; right: -23px;
+  width: 30px; height: 30px;
+  background: #333 url(icons.png) no-repeat 7px 7px;
+  text-indent: -9999px;
+  font-size: 11px;
+  white-space: nowrap;
+  -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;
+}
+.modal.custom h1 {
+  margin: -10px -10px 12px; padding: 10px;
+  background: #333;
+  color: #FFF;
+  font-size: 16px; font-weight: bold;
+  -webkit-border-radius: 5px 5px 0 0; -moz-border-radius: 5px 5px 0 0; border-radius: 5px 5px 0 0;
+}
+
+
+/* confirm */
+.modal.confirm div.modal-window > div {
+  border: 2px solid #333;
+  padding: 10px;
+  width: 300px;
+  background: #FFF;
+  
+  -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.modal.confirm div.modal-actions { padding-top: 15px; text-align: right; }
+.modal.confirm div.modal-actions a,
+.modal.confirm div.modal-actions input { margin-left: 15px; }
