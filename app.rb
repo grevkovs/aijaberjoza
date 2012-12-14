@@ -1,8 +1,10 @@
 require 'sinatra'
 require 'sass'
+require 'yaml'
 
 before do
   response.headers['X-UA-Compatible'] = 'IE=edge,chrome=1'
+  @data = YAML.load_file("data.yml")
 end
 
 get '/css/:name.css' do |name|

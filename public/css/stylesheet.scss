@@ -96,6 +96,8 @@ a:hover {
   text-shadow: 0 1px white
 }
 
+.small-text a { font-weight: bold; }
+
 .special-text {
   font-style: italic;
   font-size: 25px;
@@ -234,14 +236,11 @@ a:hover {
 
 }
 
-.event-line {
-  margin-bottom: 20px;
-  margin-top: 20px;
-  border-bottom: 1px dashed #bbb;
-}
-
 .event {
   line-height: 150%;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #BBB;
 }
 
 .date {

@@ -1,5 +1,4 @@
 <div class="wrapper">
-
   <%= erb :menu %>
 
   <h1>Айя Берёза</h1>
@@ -13,54 +12,35 @@
       <span class="contact-first"><a href="mailto:aija.berjoza@gmail.com"><b>aija.berjoza@gmail.com</b></a></span>
       <span class="contact-last"><a href="http://twitter.com/joxa" target="blank_"><b>@Joxa</b></a></span>
     </p>
-
   </div>
 
-  <div class="clearfix">
+  <div class="information clearfix">
+    <div class="events">
+      <h2>БЛИЖАЙШИЕ МЕРОПРИЯТИЯ</h2>
 
-    <div class="information">
-
-      <div class="events">
-        <h2>БЛИЖАЙШИЕ МЕРОПРИЯТИЯ</h2>
-
-        <!-- First event -->
-
+      <% @data['news'].each_pair do |key, value| %>
         <div class="event">
-          <div class="date">17 и 24 ДЕК / 14:00–17:30</div>
-          <div><a href="">Трансформационная игра: Mana laimīgā un apzinātā dzīve» в центре «Miervidi»</a></div>
+          <div class="date"><%= value['date'] %></div>
+          <a href=""><%= value['title'] %></a>
         </div>
+      <% end %>
 
-        <div class="event-line"></div>
-
-        <div class="event">
-          <div class="date">17 и 24 ДЕК / 14:00–17:30</div>
-          <div><a href="">Трансформационная игра: Mana laimīgā un apzinātā dzīve» в центре «Miervidi»</a></div>
-        </div>
-
-        <div class="event-line"></div>
-
-        <div class="event">
-          <div class="date">17 и 24 ДЕК / 14:00–17:30</div>
-          <div><a href="">Трансформационная игра: Mana laimīgā un apzinātā dzīve» в центре «Miervidi»</a></div>
-        </div>
-
-        <div class="event-line"></div>
-
-        <!-- Last event -->
-
-        <div class="small-text">Хотите что-то особенное или вам не подходят даты и время? Свяжитесь со мной по номеру <b>+371 26 364 854</b> или эл. почте <a href="mailto:aija.berjoza@gmail.com"><b>aija.berjoza@gmail.com</b></a></div>
-
+      <div class="small-text">
+        Хотите что-то особенное или вам не подходят даты и время? Свяжитесь со мной по номеру 
+        <strong>+371 26 364 854</strong> или эл. почте 
+        <a href="mailto:aija.berjoza@gmail.com">aija.berjoza@gmail.com</a>
       </div>
-
-      <div class="quotes">
-        <h2><a href="" class="quites">Одна из рекомендаций</a></h2>
-        <div class="hooks">“</div>
-        <div class="quote">Коучинг и Айя помогли мне лучше понять себя, увидеть мои истинные потребности, мои ценности и куда двигаться дальше. Мне нужен был чёткий план моей жизни - и я его получила. Теперь осталось только воплощать его в реальность — а это уже зависит только от меня</div>
-        <div class="signature">Константин Константинопольский,<br>менеджер среднего звена</div>
-      </div>
-
     </div>
 
+    <div class="quotes">
+      <h2><a href="" class="quites">Одна из рекомендаций</a></h2>
+      <div class="hooks">“</div>
+      <div class="quote">
+        <% recomendation = @data['recommendations'].to_a.sample[1] %>
+        <%= recomendation['text'] %>
+      </div>
+      <div class="signature"><%= recomendation['name'] %>,<br><%= recomendation['title'] %></div>
+    </div>
   </div>
 
   <%= erb :footer %>
