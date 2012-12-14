@@ -3,6 +3,8 @@ require 'active_support/core_ext/object'
 require 'sass'
 require 'yaml'
 
+config.logger = Logger.new(STDOUT)
+
 configure :production do
   require 'newrelic_rpm'
 end
