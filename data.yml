@@ -1,24 +1,24 @@
 events:
   -
-    date:  '17 и 24'
+    date:  '14'
     month: 'Дек'
-    time:  '14:00–17:30'
-    price: '25 Ls'
-    title: 'Трансформационная игра: Mana laimīgā un apzinātā dzīve» в центре «Miervidi»'
-    text:  'Чудестный способ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-    place: 'Brivibas 12'
-    place_url: 'https://maps.google.com/maps?q=Balasta+dambis+1a,+R%C4%ABga,+LV-1048,+Latvija&hl=en&ie=UTF8&hnear=Balasta+dambis+1A,+R%C4%ABga,+LV-1048,+Latvia&t=m&z=16'
-  -
-    date:  '31 Ноя – 2 Дек'
-    time:  'целый день'
-    price: '95 Ls'
-    title: '«Šabads Sievietei» viesu namā «Gungas»'
-  -
-    date:  '7'
-    month: 'Ноя'
-    time:  '15:00'
-    price: '25 Ls'
+    time:  '11:00–15:30'
+    price: '35 Ls'
     title: 'Трансформационная игра'
+    text:  'Трансформационная игра — это чудесный способ, как проиграть то, что ты хочешь получить в жизни. Игра четко показывает, что происходит, где ты застреваешь и на что стоит обратить внимание, какие шаги предпринять, чтобы жизнь превратилась в поток.'
+    place: 'Баложи'
+    # place_url: 'https://maps.google.com/maps?q=Balasta+dambis+1a,+R%C4%ABga,+LV-1048,+Latvija&hl=en&ie=UTF8&hnear=Balasta+dambis+1A,+R%C4%ABga,+LV-1048,+Latvia&t=m&z=16'
+  # -
+  #   date:  '31 Ноя – 2 Дек'
+  #   time:  'целый день'
+  #   price: '95 Ls'
+  #   title: '«Šabads Sievietei» viesu namā «Gungas»'
+  # -
+  #   date:  '7'
+  #   month: 'Ноя'
+  #   time:  '15:00'
+  #   price: '25 Ls'
+  #   title: 'Трансформационная игра'
 
 coach_recommendations:
   -
