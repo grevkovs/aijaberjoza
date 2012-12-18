@@ -370,21 +370,24 @@ a:hover .date {
   .header {
     color: #fff;
     background: #42ba5d;
-    font-size: 24px;
+    font-size: 25px;
     text-shadow: none;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 
     .block {
-      height: 96px;
+      height: 100px;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
       width: 33%;
       float: left;
       border-right: 1px solid white;
-      padding: 22px 10px;
+      padding: 28px 10px;
       text-align: center;
+      font-weight: bold;
 
-      .small { font-size: 13px; margin-top: 8px;}
+      .small { font-size: 13px; margin-top: 5px; font-weight: normal;}
     }
 
     .block:last-child {
@@ -393,7 +396,7 @@ a:hover .date {
   }
   
   .content {
-    padding: 20px 40px;
+    padding: 15px 40px;
     border-bottom: 1px dashed #888;
     margin-bottom: 20px;
     padding-bottom: 20px;  
@@ -404,13 +407,15 @@ a:hover .date {
       text-transform: uppercase;
       letter-spacing: 3px;
       font-stretch: normal;
-      font: 300 11px $helvetica_neue;
+      font-size: 11px;
+      font-family: $helvetica_neue;
+      font-weight: normal;
     }
-    .event_text { line-height: 200%; }
+    .event_text { line-height: 200%;}
     .event_place { line-height: 200%; }
   }
   .event_contact {
-    padding: 0 40px 30px;
+    padding: 5px 40px 25px;
   }
 }
 

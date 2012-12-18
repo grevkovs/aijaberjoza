@@ -19,13 +19,13 @@ div.modal-window div.modal-tools a.modal-close { position: absolute; top: 0; rig
 }
 .modal.default div.modal-tools a.modal-close {
   display: block;
-  width: 16px; height: 16px;
+  width: 12px; height: 12px;
   background: url(/img/icons.png) no-repeat 0 0;
   text-indent: -9999px;
   font-size: 11px;
   white-space: nowrap;
 }
-.modal.default div.modal-tools a.modal-close:hover { background-position: 0 -30px; }
+
 .modal.default h1 {
   margin-bottom: 12px; padding-bottom: 5px;
   border-bottom: 2px solid #333;
@@ -36,7 +36,7 @@ div.modal-window div.modal-tools a.modal-close { position: absolute; top: 0; rig
   box-shadow: 0 1px 0 #FFF, 0 2px 0 #333;
 }
 
-table.modal.default div.modal-tools a.modal-close { top: 0; right: -30px; }
+table.modal.default div.modal-tools a.modal-close { top: 0; right: -25px; }
   
 div.modal.default a.modal-close { top: -10px; right: -10px; }  
 div.modal.default div.modal-window > div { padding: 12px; }
