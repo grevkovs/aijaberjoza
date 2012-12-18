@@ -38,7 +38,8 @@ h2 {
   letter-spacing: 5px;
   font-weight: 300; 
   font-stretch: normal;
-  font-family: 15px $helvetica_neue;
+  font-family: $helvetica_neue;
+  font-size: 13px;
 }
 
 h3 {
@@ -47,7 +48,8 @@ h3 {
   font-weight: 300; 
   font-stretch: normal; 
   text-align: center;
-  font: 40px 'Lobster', cursive;
+  font-size: 40px;
+  font-family: 'Lobster', cursive;
   text-shadow: 0 2px #35944a
 }
 
@@ -104,7 +106,7 @@ a:hover {
 }
 
 .line {
-  margin: 20px 0 30px;
+  margin: 30px 0 30px;
   border-bottom: 1px dashed #888;
 }
 
@@ -205,15 +207,18 @@ a:hover {
   height: 30px;
 }
 
+.vertical-line-last {
+  border-right: 1px dashed #888;
+  width: 500px;
+  height: 30px;
+  margin-bottom: -30px;
+}
+
+
 .calendar-text {
   text-align: center;
   width: 500px;
   margin: 0 auto;
-}
-
-.line-calendar {
-  margin-bottom: 20px;
-  border-bottom: 1px dashed #888;
 }
 
 
@@ -245,7 +250,8 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-stretch: normal;
-  font: 300 11px $helvetica_neue;
+  font-size: 11px;
+  font-family: $helvetica_neue;
 }
 
 a:hover .date {
@@ -268,7 +274,8 @@ a:hover .date {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-stretch: normal;
-  font: 300 11px $helvetica_neue;
+  font-size: 11px;
+  font-family: $helvetica_neue;
 }
 
 .quotes {
@@ -315,30 +322,17 @@ a:hover .date {
   margin: 30px auto 45px;
   background-color: #42BA5D;
   border-radius: 3px;
-  padding-bottom: 30px;
   box-shadow: 0px 1px 3px #888;
   text-shadow: 0 1px #35944a;
   border: 7px inset;
+
   .recommendation {
     margin-bottom: 30px;
-    padding-bottom: 30px;
     border-bottom: 1px dashed #ffffff;
   }
   .recommendation:last-child {
     border-bottom: none;
   }
-}
-
-.quotes-inner-red {
-  width: 700px;
-  margin: 0 auto;
-  background-color: #F4503E;
-  border-radius: 3px;
-  margin-top: -10px;
-  margin-bottom: 45px;
-  padding-bottom: 30px;
-  box-shadow: 0px 1px 3px #888;
-  text-shadow: 0 1px #f1240e
 }
 
 .quote-inner {
@@ -351,6 +345,7 @@ a:hover .date {
   text-align: right;
   font-size: 13px;
   padding: 0 30px 0px 50px;
+  padding-bottom: 30px;
   color: white;
 }
 

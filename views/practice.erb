@@ -32,43 +32,15 @@
   </div>
 
   <div class="quotes-inner-green">
-    
     <h3>Рекомендации</h3>
 
+    <% @data['coach_recommendations'].each do |recommendation| %>
+    <div class="recommendation">
       <div class="hooks-inner">“</div>
-      <div class="quote-inner">Коучинг и&nbsp;Айя помогли мне лучше понять себя, увидеть мои истинные потребности, мои ценности и&nbsp;куда двигаться дальше. Мне нужен был чёткий план моей жизни&nbsp;&mdash; и&nbsp;я&nbsp;его получила. Теперь осталось только воплощать его в&nbsp;реальность&nbsp;&mdash; а&nbsp;это уже зависит только от&nbsp;меня.</div>
-      <div class="signature-inner">Елена Торфа</div>
-
-      <div class="line-inner-quotes"></div>
-
-      <div class="hooks-inner">“</div>
-      <div class="quote-inner">Каждая встреча с&nbsp;коучем привносила в&nbsp;мою жизнь не&nbsp;только определенные новые цели, но&nbsp;и&nbsp;вдохновение и&nbsp;уверенность в&nbsp;собственных силах. Айя помогла мне найти много <nobr>инструментов-подходов</nobr> к&nbsp;решению задач и&nbsp;научила меня мечтать. Благодаря Айе, я&nbsp;работала намного эффективней и&nbsp;интенсивней. То, что раньше я&nbsp;успевала совершить за&nbsp;месяц, у&nbsp;меня получалось за&nbsp;неделю.</div>
-      <div class="signature-inner">Алина Гржибовская</div>
-
-      <div class="line-inner-quotes"></div>
-
-      <div class="hooks-inner">“</div>
-      <div class="quote-inner">Коучинг помог мне научиться расставлять жизненные приоритеты, устанавливать цели согласно приоритетам и&nbsp;достигать эти цели. Жизнь стала полнее и&nbsp;теперь доставляет намного больше радости и&nbsp;удовольствия!</div>
-      <div class="signature-inner">Александр</div>
-
-      <div class="line-inner-quotes"></div>
-
-      <div class="hooks-inner">“</div>
-      <div class="quote-inner">Изначально на&nbsp;коучинг я&nbsp;смотрел довольно скептически&nbsp;&mdash; как это &laquo;тренер&raquo; может меня всем премудростям жизни вдруг научить?! На&nbsp;практике&nbsp;же оказалось, что все свои проблемы я&nbsp;буду решать сам и&nbsp;подсказывать мне никто не&nbsp;будет. Никаких лекций умного профессора&nbsp;&mdash; это серьезная самостоятельная работа. Правильная постановка задач и&nbsp;вопросов действительно решила некоторые проблемы и&nbsp;позволила <nobr>по-новому</nobr> взглянуть на&nbsp;вещи. Оказалось, что есть чему у&nbsp;себя самого учиться.</div>
-      <div class="signature-inner">Андрей Докторов</div>
-
-      <div class="line-inner-quotes"></div>
-
-      <div class="hooks-inner">“</div>
-      <div class="quote-inner">Коучинг это битва с&nbsp;кучей немытой посуды&nbsp;&mdash; кружка за&nbsp;кружкой, тарелка за&nbsp;тарелкой. Шахматная партия против экзистенциального дискомфорта, где ты&nbsp;игрок и&nbsp;ты&nbsp;же собственная пешка.</div>
-      <div class="signature-inner">Андрей Золотовсков</div>
-
-      <div class="line-inner-quotes"></div>
-
-      <div class="hooks-inner">“</div>
-      <div class="quote-inner">Ne jau vienmēr problēma ir tajā, ka nav viedokļa, vai nav izvēles. Bieži ir tā — ka ir daudz variantu, ko dzīvē darīt un tad galvenais jau ir izlēmība. Koučings pilnīgi noteikti palīdz rast atbildes sevī uz daudziem jautājumiem un ar koučinga palīdzību var sākt trenēt savu izlēmību, ja tādas nav vai ir pārāk vāja šī spēja. Koučings ir kā "spēja redzēt sevi no malas" pastiprinātājs.</div>
-      <div class="signature-inner">Mārtiņš</div>
-
+      <div class="quote-inner"><%= recommendation['text'] %></div>
+      <div class="signature-inner"><%= recommendation['name'] %></div>
+    </div>
+    <% end %>
   </div>
 
   <%= erb :"shared/footer_events" %>
