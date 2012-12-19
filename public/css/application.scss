@@ -390,6 +390,10 @@ a:hover .date {
       .small { font-size: 13px; margin-top: 5px; font-weight: normal;}
     }
 
+    .block:first-child {
+      background: url(/img/cal.png) no-repeat 40px 0;
+    }
+
     .block:last-child {
       border-right: none;
     }  
