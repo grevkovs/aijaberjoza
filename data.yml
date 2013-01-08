@@ -1,6 +1,6 @@
 events:
   -
-  date:  '15'
+    date:  '15'
     month: 'Фев'
     time:  '13:30–18:00'
     price: '35 Ls'
