@@ -20,7 +20,19 @@
 
     <p><img src="img/2.jpg" class="photos"></p>
 
-    <p>Я&nbsp;провожу занятия по&nbsp;вторникам, средам и&nbsp;четвергам. <a href="/calendar">Посмотреть&nbsp;календарь</a>.</p>
+    <p>Я&nbsp;провожу занятия по&nbsp;понедельникам,&nbsp;вторникам, средам и&nbsp;четвергам. <a href="/calendar">Посмотреть&nbsp;календарь</a>.</p>
+
+    <div class="quotes-inner-green">
+      <h3>Рекомендации</h3>
+
+      <% @data['yoga_recommendations'].each do |recommendation| %>
+      <div class="recommendation">
+        <div class="hooks-inner">“</div>
+        <div class="quote-inner"><%= recommendation['text'] %></div>
+        <div class="signature-inner"><%= recommendation['name'] %></div>
+      </div>
+      <% end %>
+    </div>
 
     <p><script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
     <div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="icon" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,moimir,lj,gplus"></div></p>

@@ -1,21 +1,22 @@
 events:
   -
-    date:  '15'
-    month: 'Фев'
-    time:  '13:30–18:00'
-    price: '35 Ls'
-    title: 'Трансформационная игра'
-    text:  'Трансформационная игра — это чудесный способ, как проиграть то, что ты хочешь получить в жизни. Игра четко показывает, что происходит, где ты застреваешь и на что стоит обратить внимание, какие шаги предпринять, чтобы жизнь превратилась в поток.'
-    place: 'Баложи'
+    date:  '4 - 7'
+    month: 'Jūlijs'
+    time:  'no 18:00'
+    price: '125-195 Ls'
+    title: 'Vasaras Šabads Sievietei 2013'
+    text:  'Tas nav pasākums. Tā nav nometne. Tā ir paradīze Sievietes Dvēselei. Vairāk informācijas <a href="http://www.sabadssievietei.lv" target="_blank">sabadssievietei.lv</a>'
+    place: 'Kosīši'
+    place_url: 'http://www.kosisi.lv/karte'
   -
-    date:  '14'
-    month: 'Дек'
-    time:  '11:00–15:30'
-    price: '35 Ls'
-    title: 'Трансформационная игра'
-    text:  'Трансформационная игра — это чудесный способ, как проиграть то, что ты хочешь получить в жизни. Игра четко показывает, что происходит, где ты застреваешь и на что стоит обратить внимание, какие шаги предпринять, чтобы жизнь превратилась в поток.'
-    place: 'Баложи'
-  # place_url: 'https://maps.google.com/maps?q=Balasta+dambis+1a,+R%C4%ABga,+LV-1048,+Latvija&hl=en&ie=UTF8&hnear=Balasta+dambis+1A,+R%C4%ABga,+LV-1048,+Latvia&t=m&z=16'
+    date:  '9'
+    month: 'Februāris'
+    time:  '13:00-15:00'
+    price: '10 Ls'
+    title: 'Seminārs ELPA - saikne ar dvēseli '
+    text:  'Veids kā mēs elpojam attēlo mūsu attiecības ar dvēseli. Caur elpu mēs varam savienoties ar savu dvēseli, piedzīvot, kas mēs esam patiesībā, dziļā būtībā.'
+    place: 'Miervidi'
+    place_url: 'http://www.miervidi.lv/lat/pasakumi/9-2-2013+13.00%20-%2015.00/seminars_elpa_-_saikne_ar_dveseli'
   # -
   #   date:  '31 Ноя – 2 Дек'
   #   time:  'целый день'
@@ -59,3 +60,15 @@ game_recommendations:
   -
     name: Gunta
     text: 'Šī neparastā spēle parāda lietu un situāciju patieso būtību, svarīgi ir to ieraudzīt un saprast. Un tad tev tiek iedota situāciju - tu stāvi uz vietas un nevari virzīties tālāk spēlē, jo noteikumi to neļauj. Un tad ir jāaizdomājas- kāpēc tu esi iestrēdzis šajā vietā, kas ir tas, kas tev neļauj virzīties tālāk? Gan spēlē, gan dzīvē... Un ja mēs uztveram savu dzīvi tikpat viegli kā spēli un ja mēs dzīvojam šo dzīvi kā spēlējoties, tad Transformācijas spēle – tā ir kā dzīve – gan vienkārša, gan aizraujoša, gan nopietna! Tāda kāda ir tava dzīve. Jo mana spēle bija kā mana, tev viss būs savādāk! Bet tas ir tā vērts!!! Paldies!!!'
+
+
+yoga_recommendations:
+  -
+    name: Inese
+    text: 'Vēlos pateikties par vakardienas nodarbību - emocionālajā pašsajūtā kādu laiku bija iestājusies "krīze", neizdevās atrast līdzsvaru, bet pēc nodarbības vakar jutos vienkārši lieliski. Joga ir mans pagājušā gada atklājums - paldies Tev!'
+  -
+    name: Inga
+    text: 'Esmu palikusi daudz drošāka. Nebaidos paust savu viedokli pat darbā vadībai. Spēju daudz mierīgāk uztvert apkārtnes negācijas. Daudzas lietas, kas agrāk būtu mani satraukušas šobrīd pat jāsaka uz mani neatstāj ne kādu iespaidu. Esmu nopietni sākusi pārdomāt iespēju mainīt darbu - ar to es domāju profesiju, nevis darba vietu. Un priekš manis tas tiešāmir liels izaicinājums, jo savā profesijā esmu nostrādājusi jau 20 gadus:)'
+  -
+    name:  Lita
+    text: 'Man pašreiz dzīvē ir tāds posms, kas rada nemierīgu prātu, līdz ar to ikdienā veidojās stresa situācijas, kundalini joga palīdz man uz brīdi atslēgties no ikdienas, veltīt laiku sev, palīdz atcerēties to, ka esmu brīnišķīga sieviete, kurā plūst pozitīva enerģija un ja vien es to pareizi mācēšu novirzīt, tad viss man izdosies.<br><br>Veicot kundalini jogu es sajūtos dzīva, es sajūtu savu ķermeni un tajā plūstošo enerģiju. Pēc nodarbības jūtos uz kādu brīdi atbrīvojusies no saspringuma ar pacilātu garastāvokli. Domāju, ka tā ir liela māksla šādu sajūtu sevī noturēt arī ikdienā, kas man pagaidām neizdodās, bet raugoties uz pozitīviem cilvēkiem, ticu, ka tas katram ir pa spēkam :)'
