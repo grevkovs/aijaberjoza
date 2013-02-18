@@ -3,13 +3,13 @@ require 'active_support/core_ext/object'
 require 'sass'
 require 'yaml'
 
-configure :production do
-  require 'newrelic_rpm'
-end
-
 before do
   response.headers['X-UA-Compatible'] = 'IE=edge,chrome=1'
   @data = YAML.load_file("data.yml")
+end
+
+configure :production do
+  require 'newrelic_rpm'
 end
 
 get '/css/:name.css' do |name|
