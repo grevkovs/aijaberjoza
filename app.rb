@@ -5,7 +5,7 @@ require 'yaml'
 
 before do
   response.headers['X-UA-Compatible'] = 'IE=edge,chrome=1'
-  @data = YAML.load_file("data.yml")
+  @data = YAML.load_file('data.yml')
 end
 
 configure :production do
