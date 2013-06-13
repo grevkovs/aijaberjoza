@@ -1,0 +1,114 @@
+lang: lv
+
+title: Aija Berjoza
+description: 'Psihologs, koučs, kundalini jogas skolotāja'
+events: Pasākumi
+one_recommendation: Viena no atsauksmēm
+
+menu:
+  main: ab
+  about: Par mani
+  cal: Kalendārs
+  practice: Privātprakse
+  game: Transfomācias spēle
+  yoga: Joga
+  recommendation: Rekomendācijas
+
+about:
+  '<p>Bērnībā es vēlējos kļūt par ārstu, taču asiņainā perspektīva mani neiedvesmoja un pēc skolas izvēlējos citu veidu kā atbalstīt cilvēkus – psiholoģiju.</p>
+    <p><img src="/img/about-2.jpg" class="photos"></p>
+    <p>Prakse mani saista vairāk nekā teorija, tāpēc jau pirmajā kursā darbojos kā brīvprātīgais krīzes centrā «Skalbes» - pieaugušo un vēlāk arī bērnu uzticības telefonā. Tā bija vērtīga pieredze, kas iemācīja mani klausīties un sadzirdēt.</p>
+    <p>Jau pirmajos studiju gados dziļi vīlos psihologa profesijā, jo neredzēju sevi augstskolā pasniegtajā formātā (SPPA un vēlāk RPIVA) un nevēlējos runāt ar cilvēkiem tā, kā to darīja tie psihologi, pie kuriem gāju.</p>
+    <p class="special-text">Devos brīvā lidojumā... Pasākumu organizēšana, producēšana, web tehnoloģijas... Es meklēju sevi. 2005.g. atradu jogu un vīru. Paši vērtīgākie tā laika «ieguvumi».</p>
+    <p>2009.g. Rīgā parādījās Eriksona koučings un es sapratu – tas ir mans. Darbs, kas balstīts uz principiem, ka ar visiem cilvēkiem viss ir kārtībā, katrā ir visi nepieciešamie resursi. Process, kas vērsts uz rezultātu, skaidrs vīzijas redzējums. Nav vērtēšanas un interpretācijas. Plūsma. Paldies manai skolotājai Merilinai Atkinsonei par spēju būt absolūti neitrālai, pieņemošani un prasmei to iemācīt citiem.</p>
+    <p>Koučings pamudināja mani pabeigt maģistrantūru programmā «Pozitīvā un veselības psiholoģija». Pateicoties tam, es izpētīju laimes, cilvēka potenciāla un labklājības zinātnisko pusi. Paldies manam skolotājam Markusam Štukam par atvērtību un iedvesmu atkal spēlēt muzikas instrumentus.</p>
+    <p class="special-text">Tad 2011.g. iepazinos ar emocionālās brīvības tehnikām (emotional freedom technique) un tas tik ļoti atviegloja manu dzīvi, ka nav iespējams turēt tādu dārgumu sevī – ir jādalās. Paldies manai skolotājai Mašai Bennetai, kas māca patiesi mīlēt cilvēkus un redzēt viņos dārgumu lādi.</p>
+    <p>Un kā pēdējais akords kopveselumam kalpo mana senā mīlestība – kundalini joga un medicīniskā meditācija. Tas dod man daudz enerģijas, spēka un iedvesmas visam, ko esmu iecerējusi. Kundalini joga māca man disciplīnu un kalpošanu. Paldies manai pirmajai skolotājai Dharampal Kaur par iedvesmu un izaicinājumu iziet ārpus saviem rāmjiem.</p>
+    <p><img src="/img/about-1.jpg" class="photos"></p>
+    <p>Mācīties jaunu ir viena no manām kaislībām (ja neskaita interjera dizainu, mūziku, dejas un kulināriju), tāpēc katru mēnesi mācos ko jaunu vai padziļinu zināšanas esošajā.</p>
+    <p class="special-text">Katru dienu mācos būt šeit un tagad, kā arī mīlēt bez nosacījuma. Dzīvot piepildītu un laimīgu dzīvi – tā var nosaukt ceļu, kuru eju.</p>'
+
+calendar:
+  teazer:
+    '<p>Izmēģinot saspringtu un pa minūtēm saplānotu dzīvi, kā arī laiku, kad sapņo izrauties no jaunās māmiņas ikdienas rutīnas, es atklāju savu ideāli sabalansētas nedēļas formulu – <b>3 dienas nedēļā aktīva darbošanās</b> un pārējais laiks veltīts sev, tuvajiem, mājai, hobijiem, mācībām, pārdomām. Mana dzīve ir elastīga un tajā var atrast vietu arī tev.</p>'
+  table:
+    '<div class="calendar">Pirmdiena</div>
+      <div class="vertical-line"></div>
+      <div class="calendar-text"><p>Konsultācijas mājas birojā Baložos</p></div>
+      <div class="calendar-text">
+        <p><b>17:30</b>: Joga <a href="http://www.upmalasbiroji.lv/" target="_blank">Upmalas biroji</a>
+      </div>
+      <div class="vertical-line"></div>
+      <div class="calendar">Otrdiena</div>
+      <div class="vertical-line"></div>
+      <div class="calendar-text">
+        <p><b>10:00-11:15</b>: Individuālā joga</p>
+        <p><b>12:00-14:00</b>: Joga <a href="http://dzintari.lv/" target="_blank">Neirožu klīnikā</a> (Jūrmalā)</p>
+        <p><b>17:15-18:30</b>: Joga bibliotēkā <a href="https://maps.google.com/maps/ms?msid=205412095876168481591.0004d2c4032b9c9ad1c34&msa=0" target="_blank">Dzirciema 26, (pretī Rīgas Pārdaugavas dzimtsarakstu nodaļai)</a>, pieraksts <a href="http://www.manajoga.lv">www.manajoga.lv</a> (paņemt līdzi paklājiņu)</p>
+      </div>
+      <div class="vertical-line"></div>
+      <div class="calendar">Trešdiena</div>
+      <div class="vertical-line"></div>
+      <div class="calendar-text">
+        <p><font color="red">&#9829;</font> Laiks sev, vīram, atpūtai, hobijiem</p>
+      </div>
+      <div class="vertical-line"></div>
+      <div class="calendar">Ceturtdiena</div>
+      <div class="vertical-line"></div>
+      <div class="calendar-text">
+        <p>Konsultācijas mājas birojā Baložos</p>
+        <!-- <p><b>17:30-18:45</b>: Индивидуальная семейная йога</p> -->
+      </div>
+      <div class="vertical-line"></div>
+      <div class="calendar">Piektdiena</div>
+      <div class="vertical-line"></div>
+      <div class="calendar-text"><p><font color="red">&#9829;</font> Laiks sev, vīram, atpūtai, hobijiem</p></div>
+      <div class="vertical-line"></div>
+      <div class="vertical-line-last"></div>'
+
+practice:
+  '<p>Neviena problēma netiek risināta tikai fiziskā, emocionālā vai garīgā plaknē, tāpēc es dodu priekšroku sistēmpieejai, kas ļauj harmoniski sasniegt labāko rezultātu</p>
+    <p>Pirmkārt, tas ir koučings, orientēts uz rezultātu. Pirmajā tikšanās reizē mēs konkrēti noformulējam, kas tev būs labākais rezultāts mūsu sadarbības laikā un sasniedzam to. Iedomājies, ka ir pagājusi stunda vai mēnesis/divi/trīs darba – kas būs labākais rezultāts priekš tevis?</p>
+    <p>Otrkārt, bieži vien darbā ar šķēršļiem, kas traucē dzīvot to dzīvi, kuru tu vēlies, es piedāvāju izmantot emocionālās brīvības tehnikas (EFT).</p>
+    <p>Treškārt, darbā ar emocijām izmantoju Baha ziedu terapiju, kuras iedarbību brīnumainā kārtā nesen atklāju.</p>
+    <p>Ceturtkārt, ja tu esi gatavs meditēt, tad piemeklēšu tev meditāciju, kas palielinās tavas apziņas vibrācijas un uzlabos dzīves kvalitāti.</p>
+    <p>Lai dzīve un notikumi tajā mainītos, ir jāmainās saknē pašam, jādara tas, ko nedarīji agrāk. Cik ļoti tu esi gatavs iziet ārpus saviem priekšstatiem par sevi un pasauli?</p>
+    <p>Ja tu vēlies iegūt reālus, stabilus un izmērāmus rezultātus, tad tam ir nepieciešamas 6-12 tikšanās. Tas ir atkarīgs no tava mērķa mēroga, gatavības izmaiņām un patstāvīga darba starp tikšanās reizēm.</p>
+    <p class="special-text">Pie manis visbiežāk vēršas ar jautājumiem:</p>
+    <ul class="text">
+      <li>Kā būt laimīgam attiecībās?</li>
+      <li>Mani neapmierina mans darbs... kas ir mans patiesais aicinājums?</li>
+      <li>Netieku galā ar savām emocijām.. nepatīku sev...</li>
+      <li>Kā ātrāk sasniegt mērķi?</li>
+      <li>Kā tikt vaļā no bailēm</li>
+      <li>Kā atgriezties pie sevis paša?</li>
+      <li>Kā dzīvot to dzīvi par kuru sapņoju...</li>
+    </ul>
+    <p>Ar prieku atbalstīšu tevi tavu mērķu sasniegšanā!</p>
+    <p class="special-text">Soļi:</p>
+    <ul class="text">
+      <li>1. Atbildi uz jautājumu "Ko es vēlos?"</li>
+      <li>2. Uzraksti atbildes.</li>
+      <li>3. sazinies ar mani pa telefonu <b>+371 26364854</b> vai e-pastu <a href="mailto:aija.berjoza@gmail.com"><b>aija.berjoza@gmail.com</b></a></li>
+    </ul>'
+
+game:
+  '<p>Transformācijas spēle ir brīnumains veids kā izspēlēt to, ko tu vēlies sasniegt savā dzīvē. Spēle skaidri un gaiši parāda, kas notiek, kur tu iestrēgsti un kam ir jāpievērš uzmanība, kādi soļi jāsper, lai dzīve pārvērstos plūsmā.</p>
+    <p><img src="/img/game-1.jpg" class="photos"></p>
+    <p><img src="/img/game-2.jpg" class="photos"></p>
+    <p>Uz spēli ir jāierodās ar konkrētu mērķi (ko vēlies noskaidrot; ko sasniegt, bet nezini kā vai vecās metodes nestrādā; sākt attiecības vai dziedināt tās; atrast savu dzīves aicinājumu; palielināt ienākumus utt.). Jautājumi par nākotni šeit neder (piemēram, vai tas ir vērts? Vai būs labi? Kas būs?).</p>
+    <p>TS spēlē maksimāli četri cilvēki un tam ir jāatvēl aptuveni 5 stundas.</p>'
+
+yoga:
+  '<p>Kundalini joga un meditācija ir kļuvusi par nemainīgu manas ikdienas daļu. KJ palielina apziņas līmeni, iekšējo spēku un izturību. Palīdz atklāt sevī pasauli, kurā viss ir. Iekšējais kodols. Regulāras nodarbības līdzsvaro cilvēku, atgriež vēlmi dzīvot, plaukt un mirdzēt!</p>
+    <p>Kā notiek kundalini jogas nodarbības?</p>
+    <p class="special-text">Prakses elementi ir meditācijas, matras, dinamiskie un statiskie vingrinājumi, elpošanas tehnikas un relaksācijas. Kundalini jogā šie elementi ir savīti smalkā un precīzā tehnoloģijā un tiek izmanototi katrā nodarbībā.</p>
+    <p><img src="/img/1.jpg" class="photos"></p>
+    <p>Nodarbība sākas ar mantras dziedāšanu, kas caur augšsleju vibrāciju aktivizē hipofīzes darbību, kas palielina jūtību, uzlabo uzmanības koncentrāciju uz iekšējiem signāliem un sajūtām, kā arī padara nodarbību daudz patīkamāku, jo palielinās endorfīna līmenis (baudas hormons). Tam seko pranajama, ķermeņa iesildīšana, krija, relaksācija un meditācija. Nodarbība tiek noslēgta ar mantru.</p>
+    <p>Jogi Badžans par kundalini jogu: “Pastāv 22 jogas veidi. Un katrā no tām tiek izcelta kāda no veseluma šķautnēm. Dažās tiek uzsvērta ķermeņa formas izmantošana, piemēram, hatha jogā, citas uzsver skaņas izmantošanu, piemēram, mantra joga vai vizuālās formas kā jantra joga. Dimants ir labs piemērs šai situācijai. Dažādas prakses formas var pielīdzināt tā šķautnēm. Dimants ir skaists. Atsevišķas tā šķautnes ir tā noslīpētas, ka gaisma lūzt, spīdot uz tām, pievēršot jūsu uzmanību un atverot dažādas dimensijas. Kundalini joga ir šis dimants. Ja paskatās uz to no kādas puses – jūs ieraudzīsiet šķautni. Taču, ja jūs mēģināsiet saprast visu kristālu caur šo atsevišķu šķautni, jūs gaida neveiksme, jūsu izpratne būs virspusēja un nepilna”.</p>
+    <p><img src="/img/2.jpg" class="photos"></p>
+    <p>Es vadu nodarbības pirmdienās, otrdienās, trešdienās un ceturtdienās, <a href="/lv/calendar">ieskaties kalendārā</a>.</p>'
+
+footer:
+  '© 2012 Aija Berjoza. Mīļš paldies <a href="http://glebrevkov.lv" target="blank_">Gļebam</a> un <a href="http://berjoza.com" target="blank_">Maksimam (vīram)</a> par mājaslaspas radīšanu.'
+

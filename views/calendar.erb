@@ -1,4 +1,4 @@
-<% @title = "Календарь Айи Берёзы" %>
+<% @title = t.html_title.calendar %>
 
 <div class="wrapper">
   <%= erb :"shared/menu" %>
@@ -6,7 +6,7 @@
   <h1>Календарь</h1>
 
   <div class="text">
-    <p>Испробовав занятую, расписанную по&nbsp;минутам жизнь, а&nbsp;также время, когда мечтаешь вырваться из&nbsp;рутинной монотонности молодой матери, я&nbsp;открыла для себя идеальную формулу сбалансированной недели&nbsp;&mdash; <b>3 дня в&nbsp;неделю активная трудовая деятельность</b>, остальное время посвящаю себе, близким, дому, увлечениям, учебе, размышлениям&hellip; Моя жизнь гибкая и&nbsp;может найти место для тебя.</p>
+    <%= t.calendar.teazer %>
 
     <p><script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
       <div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="icon" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,moimir,lj,gplus"></div>
@@ -14,53 +14,9 @@
   </div>
 
   <div class="calendar-container">
-
-    <div class="calendar">Понедельник</div>
-    <div class="vertical-line"></div>
-    <div class="calendar-text"><p>Частные консультации в дом. офисе в Баложи</p></div>
-    <div class="calendar-text">
-      <p><b>17:30</b>: Йога в <a href="http://www.upmalasbiroji.lv/" target="_blank">Upmalas biroji</a>
-    </div>
-
-    <div class="vertical-line"></div>
-    <div class="calendar">Вторник</div>
-    <div class="vertical-line"></div>
-
-    <div class="calendar-text">
-      <p><b>10:00-11:15</b>: Индивидуальная йога</p>
-      <p><b>12:00-14:00</b>: Частные консультации в <a href="http://dzintari.lv/" target="_blank">Клинике Неврозов</a> (Юрмала)</p>
-      <p><b>14:30–15:45</b>: Йога в <a href="http://dzintari.lv/" target="_blank">Клинике Неврозов</a> (Юрмала)</p>
-      <p><b>17:15-18:30</b>: Йога в библиотеке на <a href="https://maps.google.com/maps/ms?msid=205412095876168481591.0004d2c4032b9c9ad1c34&msa=0" target="_blank">Дзирциема 26 (напротив Rīgas Pārdaugavas dzimtsarakstu nodaļa)</a>, запись на <a href="http://www.manajoga.lv">www.manajoga.lv</a></p>
-    </div>
-
-    <div class="vertical-line"></div>
-    <div class="calendar">Среда</div>
-    <div class="vertical-line"></div>
-    <div class="calendar-text">
-      <p><font color="red">&#9829;</font> Время на себя, мужа, отдых, учебу</p>
-      <p>
-        <b>16:30-17:45</b>: йога в Galeria Riga в студии <a href="http://www.urbanyoga.lv/" target="blank_">UrbanYoga</a>
-      </p>
-    </div>
-
-    <div class="vertical-line"></div>
-    <div class="calendar">Четверг</div>
-    <div class="vertical-line"></div>
-    <div class="calendar-text">
-      <p>Частные консультации в дом. офисе в Баложи</p>
-      <p><b>17:30-18:45</b>: Индивидуальная семейная йога</p>
-    </div>
-
-    <div class="vertical-line"></div>
-    <div class="calendar">Пятница</div>
-    <div class="vertical-line"></div>
-    <div class="calendar-text"><p><font color="red">&#9829;</font> Время на себя, мужа, отдых, учебу</p></div>
-    <div class="vertical-line"></div>
-    <div class="vertical-line-last"></div>
-
+    <%= t.calendar.table %>
   </div>
 
   <%= erb :"shared/footer_events" %>
-
   <%= erb :"shared/footer" %>
 </div>

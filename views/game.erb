@@ -1,28 +1,19 @@
-<% @title = "Трансформационная игра Айи Берёзы" %>
+<% @title = t.html_title.game %>
 
 <div class="wrapper">
   <%= erb :"shared/menu" %>
 
-  <h1>Трансформационная<br>игра</h1>
+  <h1><%= t.menu.game %></h1>
 
   <div class="text">
-    <p>Трансформационная игра&nbsp;&mdash; это чудесный способ, как проиграть то, что ты&nbsp;хочешь получить в&nbsp;жизни. Игра четко показывает, что происходит, где ты&nbsp;застреваешь и&nbsp;на&nbsp;что стоит обратить внимание, какие шаги предпринять, чтобы жизнь превратилась в&nbsp;поток.</p>
-
-    <p><img src="img/game-1.jpg" class="photos"></p>
-
-    <p><img src="img/game-2.jpg" class="photos"></p>
-
-    <p>На&nbsp;игру необходимо явиться с&nbsp;целью (что ты&nbsp;хочешь прояснить в&nbsp;своей жизни; чего достичь, но&nbsp;не&nbsp;знаешь как или прежним способом не&nbsp;получается; начать отношения или исцелить их; найти свое призвание, увеличить доход <nobr>и т. д.</nobr>).</p>
-
-    <p>В&nbsp;ТИ&nbsp;играют максимум 4 человека и&nbsp;на&nbsp;это необходимо выделить 4 часа.</p>
+    <%= t.game %>
 
     <p><script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
       <div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="icon" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,moimir,lj,gplus"></div></p>
-      
   </div>
 
   <div class="quotes-inner-green">
-    <h3>Рекомендации</h3>
+    <h3><%= t.menu.recommendation %></h3>
 
     <% @data['game_recommendations'].each do |recommendation| %>
     <div class="recommendation">

@@ -1,10 +1,22 @@
 <ul class="menu">
-  <li><a href="/"<%= " class=\"active\"" if !params[:name] %>>аб</a></li>
-  <li><a href="/about"<%= " class=\"active\"" if params[:name] == "about" %>>Обо мне</a></li>
-  <li><a href="/calendar"<%= " class=\"active\"" if params[:name] == "calendar" %>>Календарь</a></li>
-  <li><a href="/practice"<%= " class=\"active\"" if params[:name] == "practice" %>>Частная практика</a></li>
-  <li><a href="/game"<%= " class=\"active\"" if params[:name] == "game" %>>Трансформационная игра</a></li>
-  <li><a href="/yoga"<%= " class=\"active\"" if params[:name] == "yoga" %>>Йога</a></li>
-<!--   <li>|</li>
-  <li><a href="#">LV</a></li> -->
+  <li>
+    <a href="/<%= t.lang %>"<%= " class=\"active\"" if !params[:name] %>><%= t.menu.main %></a>
+  </li>
+  <li>
+    <a href="/<%= t.lang %>/about"<%= " class=\"active\"" if params[:name] == "about" %>><%= t.menu.about %></a>
+  </li>
+  <li>
+    <a href="/<%= t.lang %>/calendar"<%= " class=\"active\"" if params[:name] == "calendar" %>><%= t.menu.cal %></a>
+  </li>
+  <li>
+    <a href="/<%= t.lang %>/practice"<%= " class=\"active\"" if params[:name] == "practice" %>><%= t.menu.practice %></a>
+  </li>
+  <li>
+    <a href="/<%= t.lang %>/game"<%= " class=\"active\"" if params[:name] == "game" %>><%= t.menu.game %></a>
+  </li>
+  <li>
+    <a href="/<%= t.lang %>/yoga"<%= " class=\"active\"" if params[:name] == "yoga" %>><%= t.menu.yoga %></a>
+  </li>
+  <li>|</li>
+  <li><%= locale_url %></li>
 </ul>

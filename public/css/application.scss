@@ -27,9 +27,15 @@ body {
 
 h1 {
   text-align: center;
-  font: 70px/100% 'Lobster', cursive;
   margin: 20px 0 30px;
   text-shadow: 0 3px white
+}
+
+html.lv h1 { 
+  font: 70px/100% 'Oswald', cursive;
+}
+html.ru h1 {
+  font: 70px/100% 'Lobster', cursive;
 }
 
 h2 {

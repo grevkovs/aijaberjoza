@@ -1,11 +1,13 @@
+<% @title = t.html_title.main %>
+
 <div class="wrapper">
   <%= erb :"shared/menu" %>
 
-  <h1>Айя Берёза</h1>
+  <h1><%= t.title %></h1>
 
   <div class="main">
     <img src="img/aija.png" width="218px" height="218px" alt="Айя Берёза">
-    <p>Психолог, сертифицированный коуч, учитель йоги</p>
+    <p><%= t.description %></p>
 
     <ul class="contact">
       <li>+371 26 364 854</li>
@@ -16,7 +18,7 @@
 
   <div class="information clearfix">
     <div class="events">
-      <h2>МЕРОПРИЯТИЯ</h2>
+      <h2><%= t.events %></h2>
 
       <% @data['events'].each_with_index do |value, index| %>
         <div class="event">
@@ -26,7 +28,6 @@
       <% end %>
 
       <div class="small-text">
-
         <p>Хотите что-то особенное или вам не подходят даты и время? 
         Свяжитесь со мной по номеру <strong>+371 26 364 854</strong> 
         или эл. почте <a href="mailto:aija.berjoza@gmail.com">aija.berjoza@gmail.com</a>
@@ -35,12 +36,11 @@
         <p><script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
         <div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="icon" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,moimir,lj,gplus"></div>
         </p>
-
       </div>
     </div>
 
     <div class="quotes">
-      <h2><a href="#" class="quites" id="refresh_recommendation">Одна из рекомендаций</a></h2>
+      <h2><a href="#" class="quites" id="refresh_recommendation"><%= t.one_recommendation %></a></h2>
       <div class="hooks">“</div>
       <div class="quote"><%= @recommendation['text'] %></div>
       <div class="signature"><%= @recommendation['name'] %></div>
