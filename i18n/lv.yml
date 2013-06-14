@@ -5,12 +5,20 @@ description: 'Psihologs, koučs, kundalini jogas skolotāja'
 events: Pasākumi
 one_recommendation: Viena no atsauksmēm
 
+html_title:
+  main: Aija Berjoza
+  about: Par Aiju Berjozu
+  game: Transformācijas spēle
+  joga: Joga
+  practice: Privātprakse
+  calendar: Aijas Berjozas kalendārs
+
 menu:
   main: ab
   about: Par mani
   cal: Kalendārs
   practice: Privātprakse
-  game: Transfomācias spēle
+  game: Transformācijas spēle
   yoga: Joga
   recommendation: Rekomendācijas
 
@@ -43,7 +51,8 @@ calendar:
       <div class="vertical-line"></div>
       <div class="calendar-text">
         <p><b>10:00-11:15</b>: Individuālā joga</p>
-        <p><b>12:00-14:00</b>: Joga <a href="http://dzintari.lv/" target="_blank">Neirožu klīnikā</a> (Jūrmalā)</p>
+        <p><b>12:00-14:00</b>: Individuālās konsultācijas <a href="http://dzintari.lv/" target="_blank">Neirožu klīnikā</a> (Jūrmalā)</p>
+        <p><b>14:30-15:45</b>: Joga <a href="http://dzintari.lv/" target="_blank">Neirožu klīnikā</a> (Jūrmalā)</p>
         <p><b>17:15-18:30</b>: Joga bibliotēkā <a href="https://maps.google.com/maps/ms?msid=205412095876168481591.0004d2c4032b9c9ad1c34&msa=0" target="_blank">Dzirciema 26, (pretī Rīgas Pārdaugavas dzimtsarakstu nodaļai)</a>, pieraksts <a href="http://www.manajoga.lv">www.manajoga.lv</a> (paņemt līdzi paklājiņu)</p>
       </div>
       <div class="vertical-line"></div>
@@ -107,7 +116,7 @@ yoga:
     <p>Nodarbība sākas ar mantras dziedāšanu, kas caur augšsleju vibrāciju aktivizē hipofīzes darbību, kas palielina jūtību, uzlabo uzmanības koncentrāciju uz iekšējiem signāliem un sajūtām, kā arī padara nodarbību daudz patīkamāku, jo palielinās endorfīna līmenis (baudas hormons). Tam seko pranajama, ķermeņa iesildīšana, krija, relaksācija un meditācija. Nodarbība tiek noslēgta ar mantru.</p>
     <p>Jogi Badžans par kundalini jogu: “Pastāv 22 jogas veidi. Un katrā no tām tiek izcelta kāda no veseluma šķautnēm. Dažās tiek uzsvērta ķermeņa formas izmantošana, piemēram, hatha jogā, citas uzsver skaņas izmantošanu, piemēram, mantra joga vai vizuālās formas kā jantra joga. Dimants ir labs piemērs šai situācijai. Dažādas prakses formas var pielīdzināt tā šķautnēm. Dimants ir skaists. Atsevišķas tā šķautnes ir tā noslīpētas, ka gaisma lūzt, spīdot uz tām, pievēršot jūsu uzmanību un atverot dažādas dimensijas. Kundalini joga ir šis dimants. Ja paskatās uz to no kādas puses – jūs ieraudzīsiet šķautni. Taču, ja jūs mēģināsiet saprast visu kristālu caur šo atsevišķu šķautni, jūs gaida neveiksme, jūsu izpratne būs virspusēja un nepilna”.</p>
     <p><img src="/img/2.jpg" class="photos"></p>
-    <p>Es vadu nodarbības pirmdienās, otrdienās, trešdienās un ceturtdienās, <a href="/lv/calendar">ieskaties kalendārā</a>.</p>'
+    <p>Es vadu nodarbības pirmdienās un otrdienās, <a href="/lv/calendar">ieskaties kalendārā</a>.</p>'
 
 footer:
   '© 2012 Aija Berjoza. Mīļš paldies <a href="http://glebrevkov.lv" target="blank_">Gļebam</a> un <a href="http://berjoza.com" target="blank_">Maksimam (vīram)</a> par mājaslaspas radīšanu.'
