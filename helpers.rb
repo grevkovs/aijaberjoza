@@ -3,7 +3,7 @@ helpers do
     if t.lang == 'ru'
       '<a href="/lv">LV</a>'
     else
-      '<a href="/">РУ</a>'
+      '<a href="/ru">РУ</a>'
     end
   end
 end
